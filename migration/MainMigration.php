@@ -9,7 +9,13 @@ class MainMigration
          $migrations = array_filter(scandir(__DIR__), function($migration){
              return preg_match('/.+?\.php$/', $migration);
          });
-         print_r($migrations);
+        foreach ($migrations as $migration){
+            $fileExtension = explode('.', $migration);
+            $class = 'app\\migration\\'.$fileExtension[0];
+            if(class_exists($class) && $fileExtension[0]!= 'MainMigration'){
+               $class::run();
+            }
+        }
      }
 
 }

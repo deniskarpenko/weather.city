@@ -20,11 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49d41120-e8c0-43eb-99a1-be0e819f0f2e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/MigrationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/MigrationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/api/Api.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/api/Api.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view/index/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/index/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migration/MainMigration.php" beforeDir="false" afterPath="$PROJECT_DIR$/migration/MainMigration.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +79,7 @@
       <workItem from="1599293063993" duration="4728000" />
       <workItem from="1599298555327" duration="329000" />
       <workItem from="1599305666090" duration="7556000" />
-      <workItem from="1599318775400" duration="3640000" />
+      <workItem from="1599318775400" duration="4447000" />
     </task>
     <servers />
   </component>
@@ -105,10 +102,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1599297641463" />
-    <state x="546" y="135" key="NewPhpClassDialog" timestamp="1599320779927">
+    <state x="546" y="135" key="NewPhpClassDialog" timestamp="1599323269141">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="546" y="135" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1599320779927" />
+    <state x="546" y="135" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1599323269141" />
     <state x="604" y="335" key="NewPhpFileDialog" timestamp="1599307334966">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
