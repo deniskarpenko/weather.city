@@ -3,10 +3,10 @@
 namespace app\model\api;
 
 
-class Api
+abstract class Api
 {
-    public function _construct()
+    public function _construct($config = __DIR__.'/../../config/configApi.php')
     {
-
+        $conf = require $config;
     }
 }

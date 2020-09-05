@@ -9,5 +9,6 @@ class MigrationController extends Controller
     public function actionIndex()
     {
         MainMigration::run();
+        $this->redirect('/');
     }
 }

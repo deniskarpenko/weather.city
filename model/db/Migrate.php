@@ -11,8 +11,6 @@ class Migrate extends DbModel
         if ($this->checkPDO()) {
             $sql = $class::run();
             $this->pdo->exec($sql);
-            print_r($this->pdo->errorInfo());
-            echo $sql;
         }
     }
 }
