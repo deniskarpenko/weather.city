@@ -6,8 +6,13 @@ use app\migration\Migration;
 
 class Migrate extends DbModel
 {
-    public static function run(Migration $class)
+    public function run(Migration $class)
     {
-        $class::run();
+        if ($this->checkPDO()) {
+            $sql = $class::run();
+            $this->pdo->exec($sql);
+            print_r($this->pdo->errorInfo());
+            echo $sql;
+        }
     }
 }

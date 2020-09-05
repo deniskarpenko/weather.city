@@ -6,5 +6,6 @@ namespace app\migration;
 
 interface Migration
 {
-    public static function run();
+    /*возвращает sql код для выполнения*/
+    public static function run():string;
 }

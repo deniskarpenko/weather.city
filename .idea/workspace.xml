@@ -23,7 +23,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/migration/CreateTableCity.php" beforeDir="false" afterPath="$PROJECT_DIR$/migration/CreateTableCity.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/migration/MainMigration.php" beforeDir="false" afterPath="$PROJECT_DIR$/migration/MainMigration.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/db/Db.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/db/DbModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migration/Migration.php" beforeDir="false" afterPath="$PROJECT_DIR$/migration/Migration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/db/DbModel.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/db/DbModel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/db/Migrate.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/db/Migrate.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +83,7 @@
       <workItem from="1599293063993" duration="4728000" />
       <workItem from="1599298555327" duration="329000" />
       <workItem from="1599305666090" duration="7556000" />
-      <workItem from="1599318775400" duration="5419000" />
+      <workItem from="1599318775400" duration="7780000" />
     </task>
     <servers />
   </component>

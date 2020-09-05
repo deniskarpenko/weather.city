@@ -7,8 +7,8 @@ use app\model\db\DbModel;
 
 class CreateTableCity implements Migration
 {
-    public static function run()
+    public static function run():string
     {
-        echo __METHOD__;
+       return "CREATE TABLE IF NOT EXISTS `city` (id varchar(100) PRIMARY KEY, city varchar(300))";
     }
 }

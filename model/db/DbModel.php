@@ -17,6 +17,11 @@ class DbModel
         return false;
     }
 
+    public function __destruct()
+    {
+        unset($this->pdo);
+    }
+
     private function _getPDO($conf_path)
     {
         $conf = include($conf_path);
