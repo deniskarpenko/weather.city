@@ -2,6 +2,8 @@
 
 namespace app\migration;
 
+use app\model\db\Migrate;
+
 class MainMigration
 {
      public static function run()
@@ -13,7 +15,7 @@ class MainMigration
             $fileExtension = explode('.', $migration);
             $class = 'app\\migration\\'.$fileExtension[0];
             if(class_exists($class) && $fileExtension[0]!= 'MainMigration'){
-               $class::run();
+                Migrate::run(new $class);
             }
         }
      }
