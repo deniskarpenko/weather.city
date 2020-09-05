@@ -1,0 +1,15 @@
+{
+    "name": "deniska/weather.city",
+    "authors": [
+        {
+            "name": "Denis Karpenko",
+            "email": "new.den84@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "app\\": ""
+        }
+    }
+}
