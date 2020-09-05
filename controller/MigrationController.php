@@ -1,12 +1,13 @@
 <?php
 
 namespace app\controller;
+use app\migration\MainMigration;
 
 
 class MigrationController extends Controller
 {
     public function actionIndex()
     {
-        echo __METHOD__;
+        MainMigration::run();
     }
 }
