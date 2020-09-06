@@ -14,4 +14,9 @@ class CityController extends Controller
         $cityModel = new City();
         $cityModel->fillCitiesInDB($cities);
     }
+
+    public function actionGetCities()
+    {
+        echo __METHOD__;
+    }
 }

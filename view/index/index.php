@@ -6,7 +6,7 @@
         </title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     </head>
-<body>
+<body onload="loadCity()" >
 <div class="container">
     <nav>
         <div class="nav nav-tabs" id="nav-tab" role="tablist">
@@ -31,7 +31,7 @@
             </form>
         </div>
         <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-            <select id="cityList">
+            <select id="cityList" onchange="loadCity()" >
 
             </select>
         </div>
