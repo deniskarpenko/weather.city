@@ -20,9 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49d41120-e8c0-43eb-99a1-be0e819f0f2e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/CityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/CityController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/db/City.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/db/City.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/api/Api.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/api/Api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/api/WeatherApi.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/api/WeatherApi.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/source/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/index/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/index/index.php" afterDir="false" />
     </list>
@@ -95,7 +98,7 @@
       <workItem from="1599360991085" duration="2668000" />
       <workItem from="1599369283275" duration="2516000" />
       <workItem from="1599387732100" duration="884000" />
-      <workItem from="1599389204435" duration="3527000" />
+      <workItem from="1599389204435" duration="9852000" />
     </task>
     <servers />
   </component>

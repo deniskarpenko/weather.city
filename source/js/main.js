@@ -6,8 +6,15 @@ async function loadCity()
     let select = document.getElementById('cityList');
     let html = '';
     for(let i = 0; i < responce.length; i ++){
-        html+= '<option id ="'+ responce[i]['id']+'">'+ responce[i]['city'] +'</option>'
+        html+= '<option value ="'+ responce[i]['id']+'">'+ responce[i]['city'] +'</option>'
     }
     select.innerHTML = html;
-    console.log(responce);
+}
+
+async function getWeather()
+{
+    let responce = await fetch('/city/getWeather/?id='+ document.getElementById('cityList').value
+    ).then((data)=>{
+        return data.json()
+    });
 }

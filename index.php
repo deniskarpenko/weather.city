@@ -5,3 +5,4 @@ require_once 'vendor/autoload.php';
 use app\component\Router;
 
 Router::route();
+
