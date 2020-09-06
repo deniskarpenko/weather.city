@@ -20,12 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="49d41120-e8c0-43eb-99a1-be0e819f0f2e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/CityController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/CityController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/MigrationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/controller/MigrationController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migration/CreateTableWeather.php" beforeDir="false" afterPath="$PROJECT_DIR$/migration/CreateTableWeather.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/api/WeatherApi.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/api/WeatherApi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migration/AlterTableWeather.php" beforeDir="false" afterPath="$PROJECT_DIR$/migration/DAlterTableWeather.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/db/Weather.php" beforeDir="false" afterPath="$PROJECT_DIR$/model/db/Weather.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/index/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/view/index/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +94,8 @@
       <workItem from="1599360991085" duration="2668000" />
       <workItem from="1599369283275" duration="2516000" />
       <workItem from="1599387732100" duration="884000" />
-      <workItem from="1599389204435" duration="14462000" />
+      <workItem from="1599389204435" duration="14782000" />
+      <workItem from="1599405678786" duration="967000" />
     </task>
     <servers />
   </component>
@@ -120,6 +119,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="608" y="217" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1599362943143" />
+    <state x="454" y="156" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1599405788126">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="454" y="156" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1599405788126" />
     <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1599297641463">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

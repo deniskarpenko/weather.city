@@ -10,6 +10,7 @@ class Weather extends DbModel
         if($this->checkPDO()){
             $sql = "insert into weather(city_id, params, date_weather) values ('$id','$weather', now())";
             $this->pdo->exec($sql);
+            print_r($this->pdo->errorInfo());
         }
     }
 }

@@ -4,7 +4,7 @@
 namespace app\migration;
 
 
-class AlterTableWeather implements Migration
+class DAlterTableWeather implements Migration
 {
 
     public static function run(): string
