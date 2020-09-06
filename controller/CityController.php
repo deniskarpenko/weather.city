@@ -2,6 +2,7 @@
 
 namespace app\controller;
 
+use app\model\db\City;
 use app\model\file\CityExtractor;
 
 class CityController extends Controller
@@ -10,6 +11,7 @@ class CityController extends Controller
     {
         $cityExtractor = new CityExtractor();
         $cities = $cityExtractor->extractCitiesByCountry();
-       print_r($cities);
+        $cityModel = new City();
+        $cityModel->fillCitiesInDB($cities);
     }
 }

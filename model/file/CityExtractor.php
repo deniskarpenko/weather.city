@@ -10,7 +10,7 @@ class CityExtractor
         $cities = $this->getListCities();
         $citiesFilter = [];
             foreach ($cities as $city){
-                if ($city->country == $country) {
+                if ($city->country == $country && !preg_match("/Oblast/", $city->name)) {
                     $citiesFilter[]= $city;
                 }
             }
