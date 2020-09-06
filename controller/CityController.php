@@ -17,6 +17,7 @@ class CityController extends Controller
 
     public function actionGetCities()
     {
-        echo __METHOD__;
+        $city = new City();
+        echo json_encode($city->getCitiesAll());
     }
 }

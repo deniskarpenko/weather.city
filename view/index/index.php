@@ -31,7 +31,7 @@
             </form>
         </div>
         <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-            <select id="cityList" onchange="loadCity()" >
+            <select id="cityList" >
 
             </select>
         </div>

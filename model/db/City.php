@@ -23,4 +23,12 @@ class City extends DbModel
             }
         }
     }
+
+    public function getCitiesAll()
+    {
+        if($this->checkPDO()){
+            $citiesData =$this->pdo->query('select * from city')->fetchAll();
+           return $citiesData;
+        }
+    }
 }
